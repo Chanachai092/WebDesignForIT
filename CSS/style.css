@@ -1,0 +1,11 @@
+p{
+    color: rgb(94, 92, 92);
+}
+div{
+    color: white;
+    background-color: black;
+}
+span{
+    font-size: 18px;
+    font-weight: bold;
+}
