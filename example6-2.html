@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>การใช้ฟอร์ใร่วมกับตาราง</title>
+</head>
+<body>
+    <div style="width: 300px; margin: 30px; background-color: rgb(42, 126, 165);">
+        <form action="">
+            <table>
+                <tr>
+                    <td><label form="name">ชื่อ : </label></td>
+                    <td><input type="text" name="" id="name"></td>
+                <!--
+                    type="text" >> รับอินพุดบรรทัดเดียว
+                    id = "ตั้งชื่อให้กับตัวอินพุด"
+                    placholder = "กรอกชื่อ" >> เขียนลายน้ำให้กับกล่องข้อความ
+                    maxlength = "20" >> จำกัดตัวอักษรในการออก
+                    size = "35" >> ขนาดของกล่องข้อความ
+                    readonly >> อ่านอย่างเดียว
+                    dissbled >> กำหนดสภานะไม่ใช้งาน =>ข้อมูลถูกกรอกจะไม่ถูกส่งไปในเซิฟเวอร์
+                    -->
+                </tr>
+                    <td><label for="Phone">เบอร์โทร : </label></td>
+                    <td><input name="Phone"></td>
+                <tr>
+                    <td><label for="address">ที่อยู่</label></td>
+                    <td><textarea name="" id="textarea"></textarea></td>
+                </tr>    
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="OK"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
